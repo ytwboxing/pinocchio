@@ -311,7 +311,8 @@ if(BUILD_WITH_PARSERS_SUPPORT)
     modernize_target_link_libraries(
       ${PARSERS_LIB_NAME}
       SCOPE PUBLIC
-      TARGETS urdfdom::urdf_parser
+      # TARGETS urdfdom::urdf_parser
+      TARGETS urdfdom::model
       LIBRARIES ${urdfdom_LIBRARIES}
       INCLUDE_DIRS ${urdfdom_INCLUDE_DIRS})
   endif()
