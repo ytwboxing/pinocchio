@@ -30,6 +30,8 @@ namespace pinocchio
 
 #include "pinocchio/container/boost-container-limits.hpp"
 
+#define PINOCCHIO_WITH_HPP_FCL
+
 #ifdef PINOCCHIO_EIGEN_CHECK_MALLOC
   #ifndef EIGEN_RUNTIME_NO_MALLOC
     #define EIGEN_RUNTIME_NO_MALLOC_WAS_NOT_DEFINED
